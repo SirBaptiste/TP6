@@ -1,4 +1,4 @@
-include java.awt.image.BufferedImage;
+import java.awt.image.BufferedImage;
 
 public class Mandelbrot{
 	private Complexe zn;
@@ -23,6 +23,9 @@ public class Mandelbrot{
 	}
 	
 	BufferedImage dessine(double r1, double i1, double r2, double i2,int larg, int haut){
+		BufferedImage resultat;
+		
 	
+		return resultat;
 	}
 }

@@ -23,6 +23,15 @@ public class Mandelbrot{
 	}
 	
 	BufferedImage dessine(double r1, double i1, double r2, double i2,int larg, int haut){
-	
+		BufferedImage resultat;
+		resultat = new BufferedImage(larg, haut, BufferedImage.TYPE_INT_RGB
+);
+		for(int i=0; i<larg; i++){
+			for(int j=0; j<haut; j++){
+			
+			}
+		}
+		
+		return resultat;
 	}
 }
