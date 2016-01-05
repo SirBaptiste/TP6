@@ -28,7 +28,7 @@ public class Mandelbrot{
 );
 		for(int i=0; i<larg; i++){
 			for(int j=0; j<haut; j++){
-			
+				
 			}
 		}
 		

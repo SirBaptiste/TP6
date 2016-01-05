@@ -64,6 +64,6 @@ public class Complexe {
 	}
 	
 	public String toString(){
-		return ("Partie reelle : "+reel+"\nPartie imaginaire : "+imaginaire+"\n");
+		return (reel+" + "+imaginaire+"i\n");
 	}
 }

@@ -48,6 +48,21 @@ public class Complexe {
 		this.multiplier(this);
 	}
 	
+	/* Accesseurs */
+	public double getReel(){
+		return this.reel;
+	}
+	public void setReel(double reel){
+		this.reel = reel;
+	}
+	
+	public double getImaginaire(){
+		return this.imaginaire;
+	}
+	public void setImaginaire(double imaginaire){
+		this.imaginaire = imaginaire;
+	}
+	
 	public String toString(){
 		return ("Partie reelle : "+reel+"\nPartie imaginaire : "+imaginaire+"\n");
 	}
