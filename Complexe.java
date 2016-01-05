@@ -11,6 +11,14 @@ public class Complexe {
 	}
 
 	/**
+	* Constructeur pour une partie reelle uniquement
+	*/
+	public Complexe(double reel){
+		this.reel = reel;
+		this.imaginaire = 0;
+	}
+
+	/**
 	* Constructeur par copie
 	*/
 	public Complexe(Complexe that){
@@ -62,6 +70,7 @@ public class Complexe {
 	public void setImaginaire(double imaginaire){
 		this.imaginaire = imaginaire;
 	}
+
 	
 	public String toString(){
 		return (reel+" + "+imaginaire+"i\n");
